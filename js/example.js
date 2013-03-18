@@ -119,7 +119,7 @@ $(document).ready(function() {
   
   bind();
   
-  $(".delete").live('click',function(){
+  $(".delete").on('click',function(){
     $(this).parents('.removable').remove();
     update_total();
     if ($(".delete").length < 2) $(".delete").hide();

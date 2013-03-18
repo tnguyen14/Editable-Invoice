@@ -8,7 +8,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/example.js"></script>
 
 </head>
@@ -21,11 +21,13 @@
 		
 		<div id="identity">
 		
-            <textarea id="address">Andrew Minion
-123 Anystreet
-Anytown, NC 28150
+            <textarea id="address">
+Tri Nguyen
+26 E Main St
+Norton, MA 02766
 
-Phone: 222-222-2222</textarea>
+Phone: 
+            </textarea>
 
             <div id="logo">
 
@@ -41,7 +43,7 @@ Phone: 222-222-2222</textarea>
                 <input id="imageloc" type="text" size="50" value="" /><br />
                 (max width: 540px, max height: 100px)
               </div>
-              <img id="image" src="images/AndrewRMinion-logo.svg" alt="logo" />
+              <img id="image" src="images/logo.png" alt="logo" />
             </div>
 		
 		</div>
@@ -50,10 +52,12 @@ Phone: 222-222-2222</textarea>
 		
 		<div id="customer">
 
-            <textarea id="customer-title">Widget Corp.
-c/o Steve Widget
-Address
-City, State 12345</textarea>
+            <textarea id="customer-title">
+Client Name
+Client Address
+                
+Client Phone 
+            </textarea>
 
             <table id="meta">
                 <tr>

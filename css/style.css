@@ -1,7 +1,6 @@
 /*
-	 CSS-Tricks Example
-	 by Chris Coyier
-	 http://css-tricks.com
+    Invoice Generator
+    by Tri Nguyen (tridnguyen.com)
 */
 
 * {
@@ -111,7 +110,6 @@ table td, table th {
 
 #customer-title {
 	font-size: 18px;
-	font-weight: bold;
 	float: left;
 	width: 250px;
 	height: 100px;
