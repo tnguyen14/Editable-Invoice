@@ -19,7 +19,7 @@ body {
 
 textarea {
 	border: 0;
-	font: 14px Georgia, Serif;
+	font: 16px Georgia, Serif;
 	overflow: hidden;
 	resize: none;
 }
@@ -109,7 +109,6 @@ table td, table th {
 }
 
 #customer-title {
-	font-size: 18px;
 	float: left;
 	width: 250px;
 	height: 100px;
@@ -149,7 +148,7 @@ table td, table th {
 
 #items textarea {
 	width: 80px;
-	height: 50px;
+	min-height: 50px;
 }
 
 #items tr.item-row td {
